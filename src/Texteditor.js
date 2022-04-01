@@ -31,7 +31,7 @@ export const Texteditor=()=>{
       ];
 
       useEffect(()=>{
-        const s=  io('http://localhost:6789/')
+        const s=  io('https://google-doc-clone-backend.herokuapp.com/')
         setSocket(s)
   
         return ()=>{
